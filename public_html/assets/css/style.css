@@ -19,6 +19,7 @@ and open the template in the editor.
     width: 300px;
     height: 100%;
     color: #e1ffff;
+    overflow-x: hidden;
 }
 .nav-side-menu .brand {
     background-color: #23282e;
@@ -152,4 +153,15 @@ and open the template in the editor.
 body {
     margin: 0px;
     padding: 0px;
+}
+
+.ex3{    
+    overflow-x: hidden;
+}
+.ex3::-webkit-scrollbar{
+    width:10px;
+} 
+.ex3::-webkit-scrollbar-thumb{
+    background-color:#d19b3d;
+    border-radius:10px;
 }
